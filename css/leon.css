@@ -44,7 +44,7 @@ body {
     }
   }
 .special-heading {
-     color: #ebeced;
+     color: #aeceee;
      font-size: 100px;
      text-align: center;
      font-weight: 800;
@@ -159,20 +159,24 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     text-align: center;
     width: 320px;
     max-width: 100%;
 }
-.landing .introtext h1 {
+.landing .intro-text h1 {
  margin: 0;
  font-weight: bold;
- font-size: 40px;
- color: var(--main-color); 
+ font-size: 50px;
+ /* color: var(--secondary-color); */
+ color: green ;
 }
-.landing .introtext p {
-    font-size: 20px;
+.landing .intro-text p {
+    font-size: 21px;
     line-height: 1.8;
+    color: red;
+    color: blueviolet;
+    font-weight: bolder;
 }
 /* features */
 
@@ -206,6 +210,7 @@ body {
 .services {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    text-align: center;
 }
 .services .services-content {
     display: grid;
@@ -232,11 +237,16 @@ body {
 }
 .services .services-content .srv .text h3 {
     margin-top: 0 20px;
+    color: rgb(64, 14, 110);
+    font-style: italic;
+    font-weight: 800;
+    text-decoration: underline;
 }
 .services .services-content .srv .text p {
-    color: #777;
-    font-weight: 300;
+    color: rgb(91, 16, 110);
+    font-weight: 400;
     line-height: 1.8;
+    font-weight: bolder;
 }
 .services .services-content .image {
     text-align: center;
@@ -372,7 +382,7 @@ body {
 /* contact */
 .contact {
     padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    /* padding-bottom: var(--section-padding); */
     background-color: var(--section-bachground);
 }
 .contact .info {
@@ -423,3 +433,30 @@ body {
     font-weight: bold;
     color: var(--main-color);
 }
+/* 18-2-2022 */
+.address{
+    border: inherit;
+    border-radius:-10px;
+    background-color: rgb(202, 243, 240);
+    text-align: center;
+    padding: 10px;
+    text-shadow: -1px 2px 2px rgb(65, 35, 235);
+    color: purple;
+    font-size: 30PX;
+    text-decoration: salmon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h4{
+    text-align: center;
+    color: rgb(143, 4, 124);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    word-spacing: 10px;
+    text-indent: 75px;
+    /* margin-top: 5px ; */
+    margin-bottom: 5px;
+  }
+  .mobile {
+      position: relative;
+  }
